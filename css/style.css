@@ -462,7 +462,7 @@ label {
 	font-size: 12px;
 	color: #3f3f3f;
 	font-weight: 300;
-	margin: 0px 5px;
+	/*! margin: 0px 5px; */
 }
 .page-star{
 	display: flex;
@@ -855,6 +855,384 @@ img {
 }
 .share-content{
 	margin-bottom: 40px;
+}
+
+
+/*baluvelle-section*/
+.baluvelle-wrapper{
+	padding: 50px 0px;
+	background: #f3f3f3;
+}
+.baluvelle-wrapper::before {
+	background: #f3f3f3;
+	background-repeat: repeat-x;
+	bottom: 0;
+	clear: both;
+	content: " ";
+	display: block;
+	right: -175px;
+	position: absolute;
+	top: 0;
+	width: 23%;  
+}  
+.baluvelle-wrapper::after {
+	background: #f3f3f3;
+	background-repeat: repeat-x;
+	bottom: 0;
+	clear: both;
+	content: " ";
+	display: block;
+	left: -20px;
+	position: absolute;
+	top: 0;
+	width: 3%;  
+} 
+.bbb_content {
+	margin: 0px 10px;
+}  
+.filter-title h2 {
+	font-size: 27px;
+	font-weight: 700;
+	color: #3f3f3f;
+	text-transform: capitalize;
+}
+.filter-title p {
+	font-size: 14px;
+	font-weight: 300;
+	color: #3f3f3f;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.styled-pagination {
+  text-align: right;
+}
+.styled-pagination ul li {
+  display: inline-block;
+}
+.styled-pagination ul li a {
+	margin-right: 15px;
+}
+ 
+.bbb_deals_titles {
+	font-size: 14px;
+	color: #3f3f3f;
+	font-weight: 300;
+	margin: 10px 0px;
+} 
+.bbb_deals_item h4 {
+	font-size: 23px;
+	font-weight: 300;
+	color: #3f3f3f;
+}  
+.sold_stars span {
+	font-size: 14px;
+	font-weight: 300;
+	color: #3f3f3f;
+}
+.reviews {
+	font-size: 13px;
+	font-weight: 300;
+	color: #3f3f3f;
+} 
+.fa.fa-star {
+	color: #ffcb4a;
+}
+.fa.fa-star.zero-rating {
+	color: #000;
+}
+.gram p{
+	font-size: 14px;
+	color: #3f3f3f;
+	font-weight: 300;
+	padding: 0px;
+	margin: 0px;
+}
+.gram h3 {
+	font-size: 27px;
+	font-weight: 700;
+	color: #000;
+}
+.bbb_deals_item a {
+	text-align: center;
+	margin: 10px auto;
+	background: #5dbc20;
+	color: #fff;
+	padding: 10px 35px;
+	border-radius: 20px;
+}  
+.bbb_deals {
+	box-shadow: 5px 5px 16px 10px #eeeeee;
+	padding: 25px 20px;
+	border-radius: 5px;
+	text-align: center;
+	color: #414141;
+	background: #fff;
+	border-radius: 30px;
+	margin-bottom: 30px;
+}  
+.bbb_deals_image img{
+	max-height: 100%;
+	width: 50%;
+}  
+.recent-content {
+	margin-bottom: 25px;
+	padding: 0px 35px;
+}  
+.card-header h5 {
+	font-size: 14px;
+	font-weight: 300;
+	color: #3f3f3f;
+	padding: 5px 0px;
+}     
+.card-body {
+	font-size: 14px;
+	font-weight: 300;
+	color: #3f3f3f;
+	padding: 10px 5px;
+	margin: 0px;
+} 
+.rotate-icon {
+	float: right;
+}  
+.filter-content {
+	padding: 20px 0px;
+} 
+.accordion {
+	margin-right: 50px;
+}  
+.bbb_deals_item p {
+	margin-top: 12px;
+	font-size: 14px;
+	color: #3f3f3f;
+}
+.row.bolg-star-one {
+	margin-bottom: 18px;
+}
+.share ul li {
+	display: inline-block;
+}  
+.share ul li a{
+	font-size: 40px;
+	font-weight: 600;
+	color: #3f3f3f;
+	padding: 0px 10px;
+}
+.share-content{
+	margin-bottom: 40px;
+}
+
+  .banner-section{
+	  background: rgba(0, 0, 0, 0.5) url(../img/banner.jpg) ;
+	  background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	padding: 30px 0px;
+	position: relative;
+  }
+ 
+.banner-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+} 
+.ui-bc-seperator {
+	font-size: 12px;
+	color: #fff;
+	font-weight: 300;
+	/*! margin: 0px 5px; */
+}
+.ui-bc.ui-breadcrumbs a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 300;
+	/*! margin: 0px 5px; */
+}  
+#breadcrumb {
+	padding: 20px 0px;
+}
+.banner-content{
+	padding: 100px 0px;
+}
+.banner-content h1 {
+	font-size: 59px;
+	font-weight: 700;
+	color: #fff;
+} 
+.banner-content p {
+	font-size: 22px;
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+.banner-content a {
+	text-align: center;
+	margin: 10px auto;
+	background: #5dbc20;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 13px 40px;
+	border-radius: 20px;
+}   
+.banner-image {
+	margin-top: 43%;
+}
+
+/* store-section */
+.store-section {
+	background: #f3f3f3;
+	padding: 100px 0px;
+
+}
+.store-cbd-title{
+	padding: 100px 0px;
+}
+.store-cbd-title h3 {
+	font-size: 52px;
+	font-weight: 600;
+	color: #3f3f3f;
+	text-align: center;
+}
+.store-section .bbb_deals_image.store img {
+	width: 100%;
+	max-width: 85%;
+}
+.bbb_deals_item.store-title h3 {
+	font-size: 28px;
+	font-weight: 300;
+	color: #3f3f3f;
+} 
+.store-section .bbb_deals_slider_container {
+	padding: 20px 0px;
+}
+ 
+.store-section .bbb_deals_item.store-title p {
+	font-size: 20px;
+	font-weight: 300;
+	color: #3f3f3f;
+	margin-bottom: 40px;
+}
+
+.blog-page-section{
+	background: rgba(0, 0, 0, 0.5) url(../img/banner_blog.jpg) ;
+	background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding: 30px 0px;
+  position: relative;
+}
+
+/* blog-page  */
+.blog-page-wrapper {
+	padding: 50px 0px;
+	background: #f3f3f3;
+}
+.blog-page-wrapper::before {
+	background: #f3f3f3;
+	background-repeat: repeat-x;
+	bottom: 0;
+	clear: both;
+	content: " ";
+	display: block;
+	left: -175px;
+	position: absolute;
+	top: 0;
+	width: 23%;
+} 
+.blog-page{
+	box-shadow: 5px 5px 16px 10px #eeeeee;
+	border-radius: 5px;
+	color: #414141;
+	background: #fff;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+.blog-name {
+	text-align: center;
+}
+.blog-name span {
+	font-size: 9px;
+	font-weight: 400;
+	color: #7e7e7e;
+	padding: 0px 12px;
+}
+.blog-name span.lifestyle{
+	color: #5fb722;
+}
+.blog-content h3 {
+	font-size: 15px;
+	font-weight: 300;
+	color: #3f3f3f;
+	/*! text-align: center; */
+	padding: 6px 15px;
+}
+.blog-content p {
+	font-size: 14px;
+	color: #3f3f3f;
+	font-weight: 300;
+	margin: 0;
+	padding: 0px 9px;
+} 
+.other-btn {
+	padding: 30px 0px;
+	text-align: center;
+} 
+.other-btn a {
+	text-align: center;
+	margin: 10px auto;
+	background: #5dbc20;
+	color: #fff;
+	padding: 14px 35px;
+	border-radius: 20px;
+	text-transform: uppercase;
+}
+.custom-select span{
+	color: #5dbc20;
+}
+.post-article {
+	padding: 50px 0px;
+}
+.post-article h3 {
+	font-size: 27px;
+	font-weight: 500;
+	color: #3f3f3f;
+}
+.blog-btn {
+	display: inline-block;
+}
+.blog-btn a {
+	text-align: center;
+	margin: 10px auto;
+	background: #5dbc20;
+	color: #fff;
+	padding: 14px 35px;
+	border-radius: 20px;
+	text-transform: uppercase;
+}
+.page-button.blog {
+	margin: 0;
+}
+.page-button.blog ul li {
+	display: inline-block;
+	margin-top: 16px;
+	padding: 8px 4px;
+}
+.page-button.blog ul li a {
+	font-size: 11px;
+	font-weight: 300;
+	color: #fff;
+	padding: 12px 40px;
+	text-transform: uppercase;
+	background: #565656;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.page-button.blog ul li a.blog-item{
+	background:#5dbc20;
+
 }
 
   
