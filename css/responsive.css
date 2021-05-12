@@ -1,32 +1,335 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 
-
-}
-
-
-/* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
-
-
-}
-
- 
-/* Tablet desktop :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
-
-
-}
-
- 
-/* small mobile :320px. */
-@media (max-width: 767px) {
-
- 
-}
- 
-/* Large Mobile :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
-}
+    .logo-side img {
+        width: 100%;
+    }
+    
+    }
+    @media only screen and (max-width: 1400px){
+        .seasonal-beverages .container::after {
+        width: 8.5%;
+    }
+    
+    .logo-side img {
+        width: 100%;
+    }
+    }
+    @media only screen and (max-width: 1300px){
+        .seasonal-beverages .container::after {
+        width: 2%;
+    } 
+    .logo-side img {
+        width: 100%;
+    }
+    }
+    
+    /* Normal desktop :992px. */
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .seasonal-beverages .container::after {
+            width: 2%;
+        }
+    .baluvelle-wrapper::before {
+        right: -136px;
+    } 
+    .baluvelle-wrapper::after {
+        left: -18px;
+    }
+    .brand-wrapper h3 {
+        font-size: 40px;
+    }
+    .brand-wrapper {
+        margin: 100px 0px 20px 0px;
+    }
+    .brand-wrapper p {
+        font-size: 14px;
+    }
+    .brand-comodo {
+        margin: 100px 0px 20px 0px;
+    }
+    .logo-side img {
+        width: 100%;
+    }
+    .blog-page-wrapper::before {
+        width: 25%;
+    }
+    .brand-comodo p {
+        font-size: 14px;
+    }
+    .page-title h1 {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .maps iframe {
+        width: 625px;
+    }
+    .review-star span {
+        font-size: 8px;
+        color: #3f3f3f;
+    }
+    .h-button .btn {
+        margin-top: 10px;
+    } 
+    .text-right {
+        text-align: center !important;
+    }
+    .page-button.brands ul li a.brands {
+        padding: 15px 36px;
+    }
+    .brand-wrapper {
+        margin: 0;
+    }
+    .brand-wrapper h3 {
+        font-size: 28px;
+    }
+    .banner-content p {
+        margin-bottom: 30px;
+    }
+   
+    }
+    @media only screen and (max-width: 1100px){
+        .seasonal-beverages .container::after {
+        width: 7%;
+    } 
+    .logo-side img {
+        width: 100%;
+    }
+    .bbb_deals_item h4 {
+        font-size: 18px;
+    }
+    .gram h3 {
+        font-size: 20px;
+    }
+    .post-article h3 {
+        font-size: 26px;
+        font-weight: 500;
+        color: #3f3f3f;
+    }
+    .brand-wrapper p {
+        font-size: 14px;
+    }
+    }
+    /* Tablet desktop :768px. */
+    @media (min-width: 768px) and (max-width: 992px) {
+    .baluvelle-wrapper::before {
+        right: -125px;
+        width: 47%;
+    }
+    .baluvelle-wrapper::after {
+        width: 5%;
+    }
+    .blog-page-wrapper::before {
+        width: 25%;
+    }
+    .brand-wrapper p {
+        font-size: 14px;
+    }
+    .logo-side img {
+        width: 100%;
+    }
+    .brand-comodo p {
+        font-size: 14px;
+    }
+    .right-side span a {
+        font-size: 18px;
+    }
+    .page-title h1 {
+        font-size: 25px;
+        margin-left: 28px;
+    }
+    .page-button ul li a {
+        padding: 15px 16px;
+    }
+    .brand-comodo {
+        margin: 100px 0px 20px 0px;
+    }
+    .brand-comodo p {
+        font-size: 14px;
+    }
+    .site-section {
+        padding: 15px !important;
+        margin-top: 15px;
+    } 
+    .maps iframe {
+        width: 540px;
+    }
+    .share ul li a {
+        font-size: 17px;
+        padding: 0px 5px;
+    }   
+    .seasonal-beverages .container::after {
+        width: 14%;
+    }
+    .pages-section {
+        height: 400px;
+    }
+    .blog-post-section .banner-content h1 {
+        font-size: 22px;
+    }
+    .page-button.brands ul li a.brands {
+        padding: 15px 36px;
+    }
+    .brand-wrapper {
+        margin: 0;
+    }
+    .brand-wrapper h3 {
+        font-size: 28px;
+    }
+    .brand-image {
+        margin-right: -15px;
+        margin-bottom: 20px;
+    }
+    .banner-image {
+        margin-top: 0%;
+        text-align: center;
+    }
+    img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-section {
+        height: 700px;
+    }
+    .lisiting-category {
+        padding: 30px 60px;
+        margin-right: 10;
+    }
+    .left-listing h3 {
+        margin-left: 50px;
+    }
+    }
+    
+     
+    /* small mobile :320px. */
+    @media (max-width: 768px) {
+    .baluvelle-wrapper::before {
+        width: 40%;
+    }
+    .seasonal-beverages .container::after {
+        width: 4%;
+    }
+    .baluvelle-wrapper::after {
+        width: 5%;
+    }
+    #menu-mobile-div {
+        top: 0px;
+    }
+    .brand-comodo p {
+        font-size: 14px;
+    }
+    .logo-side img {
+        width: 100%;
+    }  
+    .page-title h1 {
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }  
+    .pages-section {
+        height: 303px;
+        padding: 30px 0px;
+    } 
+        .page-button ul li a {
+        padding: 15px 16px;
+    }
+        .page-star img {
+        width: 70px;
+        margin-right: 8px;
+    }
+    .page-button ul li {
+        padding: 8px 0px;
+    }
+    .right-side {
+        padding: 23px 0px 0px;
+    }
+    .listing .lh-content {
+        margin-left: 25px;
+    }
+    .page-menu ul li a {
+        padding: 16px 16px;
+    }
+    .page-menu {
+        margin-top: 28px;
+    }
+    .page-button.brands ul li a.brands {
+        padding: 15px 36px;
+    }
+    .brand-image {
+        margin-right: -15px;
+        margin-bottom: 20px;
+    }
+    .banner-image {
+        margin-top: 0%;
+        text-align: center;
+    }
+    img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+        width: 66%;
+        text-align: center;
+    }
+    }
+    @media only screen and (min-width: 700px) and (max-width: 800px){
+        .pages-section {
+        height: 452px;
+        padding: 30px 0px;
+    }  
+    .listing .lh-content {
+        margin-left: 18px;
+    }
+    .logo-side img {
+        width: 100%;
+    } 
+    }
+    /* Large Mobile :480px. */
+    @media only screen and (min-width: 340px) and (max-width: 700px) {
+    .container {width:450px}
+     .logo-side img {
+        width: 100%;
+    }
+    .pages-section {
+        height: 472px;
+        padding: 30px 0px;
+    }
+    .page-button {
+        margin-left: 0px;
+    }
+    #titlebar-breadcrumb {
+        margin-right: 55px;
+    }
+    .input-group.space {
+        padding-right: 100px;
+    }
+    .section-title h2 {
+        font-size: 22px;
+        padding: 10px 30px;
+    }
+    .brand-wrapper p {
+        font-size: 14px;
+    }
+    .brand-comodo {
+        margin: 100px 0px 20px 0px;
+    }
+    .brand-comodo p {
+        font-size: 14px;
+    }
+    .page-button.brands ul li a.brands {
+        padding: 15px 36px;
+    }
+    .brand-wrapper {
+        margin: 0;
+    }
+    .brand-wrapper h3 {
+        font-size: 28px;
+    }
+    .brand-image {
+        margin-right: -15px;
+        margin-bottom: 20px;
+    }
+    }
+    
